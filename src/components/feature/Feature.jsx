@@ -1,8 +1,18 @@
-import "./feature.css"
-const Feature = () => {
+import "./feature.css";
+// eslint-disable-next-line react/prop-types
+const Feature = ({ title, text }) => {
   return (
-    <div>Feature</div>
-  )
-}
+    <div className="gpt3__features-container__feature">
+      <div className="gpt3__features-container__feature-title">
+        <div />
+        <h1>{title}</h1>
+      </div>
 
-export default Feature
+      <div className="gpt3__features-container__feature-text">
+        <p>{text}</p>
+      </div>
+    </div>
+  );
+};
+
+export default Feature;
