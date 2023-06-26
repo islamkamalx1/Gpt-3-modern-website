@@ -1,5 +1,5 @@
 import "./cta.css";
-const CTA = () => {
+const Cta = () => {
   return (
     <div className="gpt3__cta">
       <div className="gpt3__cta-content">
@@ -13,4 +13,4 @@ const CTA = () => {
   );
 };
 
-export default CTA;
+export default Cta;
